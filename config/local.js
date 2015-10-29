@@ -29,76 +29,76 @@
 
 module.exports = {
 
-fixtures: {
-  order: ['Recipes'],
-  overwrite: ['Recipes'],
-  Recipes: [
-    {
-      title: 'Breads',
-      type: 'Salad',
-      description: "The best recipe"
-    },
-    {
-      title: 'Bakes',
-      type: 'Sweet',
-      description: "The best recipe"
-    },
-    {
-      title: 'Pizza',
-      type: 'Salad',
-      description: "The best recipe"
-    },
-    {
-      title: 'Cookies',
-      type: 'Sweet',
-      description: "The best recipe"
-    },
-    {
-      title: 'Pudding',
-      type: 'Sweet',
-      description: "The best recipe"
-    },
-    {
-      title: 'Cakes',
-      type: 'Sweet',
-      description: "The best recipe"
-    },
-    {
-      title: 'Apple Pie',
-      type: 'Sweet',
-      description: "The best recipe"
-    },
-    {
-      title: 'Carrot Cake',
-      type: 'Sweet',
-      description: "The best recipe"
-    },
-    {
-      title: 'Apple Crumble',
-      type: 'Sweet',
-      description: "The best recipe"
-    },
-    {
-      title: 'Scones',
-      type: 'Sweet',
-      description: "The best recipe"
-    },
-    {
-      title: 'Salad',
-      type: 'Sweet',
-      description: "The best recipe"
-    },
-    {
-      title: 'Lasagne',
-      type: 'Salad',
-      description: "The best recipe"
-    },
-    {
-      title: 'Omelet',
-      type: 'Salad',
-      description: "The best recipe"
-    },
-  ],
+  fixtures: {
+    order: ['Recipes'],
+    overwrite: ['Recipes'],
+    Recipes: [
+      {
+        title: 'Breads',
+        type: 'Salad',
+        description: "The best recipe"
+      },
+      {
+        title: 'Bakes',
+        type: 'Sweet',
+        description: "The best recipe"
+      },
+      {
+        title: 'Pizza',
+        type: 'Salad',
+        description: "The best recipe"
+      },
+      {
+        title: 'Cookies',
+        type: 'Sweet',
+        description: "The best recipe"
+      },
+      {
+        title: 'Pudding',
+        type: 'Sweet',
+        description: "The best recipe"
+      },
+      {
+        title: 'Cakes',
+        type: 'Sweet',
+        description: "The best recipe"
+      },
+      {
+        title: 'Apple Pie',
+        type: 'Sweet',
+        description: "The best recipe"
+      },
+      {
+        title: 'Carrot Cake',
+        type: 'Sweet',
+        description: "The best recipe"
+      },
+      {
+        title: 'Apple Crumble',
+        type: 'Sweet',
+        description: "The best recipe"
+      },
+      {
+        title: 'Scones',
+        type: 'Sweet',
+        description: "The best recipe"
+      },
+      {
+        title: 'Salad',
+        type: 'Sweet',
+        description: "The best recipe"
+      },
+      {
+        title: 'Lasagne',
+        type: 'Salad',
+        description: "The best recipe"
+      },
+      {
+        title: 'Omelet',
+        type: 'Salad',
+        description: "The best recipe"
+      },
+    ],
 }
   /***************************************************************************
    * Your SSL certificate and key, if you want to be able to serve HTTP      *

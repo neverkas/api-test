@@ -1,28 +1,44 @@
-# api-test
-
-
+# Api Test v1.0
 
 # Sails - Generate API
 
-`
+```
 ember generate api recipes
-`
+```
 
-# RestClient - Method Post  
+#  Sails fixtures - Modified in config/local.js
 
-`
-{
-  "recipes": {"title": "Cookies", "type": "Sweet", "description": "The best recipe"}
+
+```javascript
+module.exports = {
+  fixtures: {
+    order: ['Recipes'],
+    overwrite: ['Recipes'],
+    Recipes: [
+      {
+        title: 'Breads',
+        type: 'Salad',
+        description: "The best recipe"
+      },
+      {
+        title: 'Bakes',
+        type: 'Sweet',
+        description: "The best recipe"
+      },
+      {
+        title: 'Pizza',
+        type: 'Salad',
+        description: "The best recipe"
+      }
+    ]
 }
-`
+```
 
-sails-generate-ember-blueprints
 ## Recursos
-* *Sails*
- + http://sailsjs.org
+* [Sails.js] (http://sailsjs.org)
 
-* *Sails generate ember blueprints*
- + https://github.com/mphasize/sails-generate-ember-blueprints
+* [Sails hook fixtures] (https://github.com/arryon/sails-hook-fixtures)
 
-* *RestClient Firefox*
- + https://addons.mozilla.org/es/firefox/addon/restclient/
+* [Sails generate ember blueprints] (https://github.com/mphasize/sails-generate-ember-blueprints) Modify the json format
+
+* [RESTClient Firefox] (https://addons.mozilla.org/es/firefox/addon/restclient/) Testing the services
